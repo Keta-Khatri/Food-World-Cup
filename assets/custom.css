@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'neue_einstellung';
+    src: url('/assets/neueeinstellung/neueeinstellung-thin-webfont.woff2')format('woff2'),
+        url('/assets/neueeinstellung/neueeinstellung-thin-webfont.woff')format('woff');
+
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue_einstellung';
+    src: url('/assets/neueeinstellung/neueeinstellung-light-webfont.woff2') format('woff2'),
+        url('/assets/neueeinstellung/neueeinstellung-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue_einstellungnormal';
+    src: url('/assets/neueeinstellung/neueeinstellung-normal-webfont.woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue_einstellung';
+    src: url('/assets/neueeinstellung/neueeinstellung-regular-webfont.woff2') format('woff2'),
+        url('/assets/neueeinstellung/neueeinstellung-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue_einstellung';
+    src: url('/assets/neueeinstellung/neueeinstellung-medium-webfont.woff2') format('woff2'),
+        url('/assets/neueeinstellung/neueeinstellung-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue_einstellung';
+    src: url('/assets/neueeinstellung/neueeinstellung-semibold-webfont.woff2') format('woff2'),
+        url('/assets/neueeinstellung/neueeinstellung-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue_einstellungbold';
+    src: url('/assets/neueeinstellung/neueeinstellung-bold-webfont.woff2') format('woff2'),
+        url('/assets/neueeinstellung/neueeinstellung-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue_einstellung';
+    src: url('/assets/neueeinstellung/neueeinstellung-extrabold-webfont.woff2') format('woff2'),
+        url('/assets/neueeinstellung/neueeinstellung-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue_einstellung';
+    src: url('/assets/neueeinstellung/neueeinstellung-black-webfont.woff2') format('woff2'),
+        url('/assets/neueeinstellung/neueeinstellung-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* .neue-bold{
+    font-family: 'neue_einstellungbold';
+} */
+/* 
+  
+  
+  @mixin neue-black() {
+      font-family: 'neue_einstellungblack';
+  }
+  @mixin neue-extra-bold() {
+      font-family: 'neue_einstellungextrabold';
+  }
+  @mixin neue-light() {
+      font-family: 'neue_einstellunglight';
+  }
+  @mixin neue-medium() {
+      font-family: 'neue_einstellungmedium';
+  }
+  @mixin neue-normal() {
+      font-family: 'neue_einstellungnormal';
+  }
+  @mixin neue-regular() {
+      font-family: 'neue_einstellungregular';
+  }
+  @mixin neue-semi-bold() {
+      font-family: 'neue_einstellungsemibold';
+  }
+  @mixin neue-thin() {
+      font-family: 'neue_einstellungthin';
+  } */
+
+.mega-headline {
+    line-height: 1.15;
+    font-size: smaller;
+    font-family: 'neue_einstellungbold';
+}
+
+.large-headline {
+    font-size: small;
+    font-family: 'neue_einstellungbold';
+    line-height: 1.16;
+}
+
+.sub-headline {
+    font-size: medium;
+    font-family: 'neue_einstellungnormal';
+    line-height: 1.3;
+}
+
+.body {
+    font-size: large;
+    font-family: 'neue_einstellungnormal';
+    line-height: 1.25;
+}
+
+.sidenote {
+    font-size: larger;
+    font-family: 'neue_einstellungnormal';
+    line-height: 1.33;
+}
+
+
+/* @font-face {
+    font-family: 'hack';
+    src: url('/fonts/hack/regular.woff2') format('woff2'),
+         url('/fonts/hack/regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  } */

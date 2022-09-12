@@ -1,0 +1,113 @@
+window.theme = {
+    accent:"#232323",
+    accent_positive:"#33ffe6",
+    accent_negative:"#ff2c6d",
+    background_content:"#E8DAC5",
+    background_page:"#F2E9DD",
+    body_text:"#493D32",
+    border:"#d3bd98",
+    border_style:{
+        name:"underlined",
+        borderWidth:"0px 0px 1px 0px",
+        borderStyle:"solid",
+        borderRadius:0
+    },
+    button_border:{
+        width:"1px",
+        color:"#232323",
+        radius:"0px"
+    },
+    button_capitalization:"uppercase",
+    button_text:"#232323",
+    button_background_color:"#E8DAC5",
+    control_border:{
+        width:"0px 0px 1px 0px",
+        color:"#d3bd98",
+        radius:"0px"
+    },
+    control_background_color:"#E8DAC5",
+    control_text:"#493D32",
+    card_margin:"15px",
+    card_padding:"5px",
+    card_border:{
+        width:"0px 0px 0px 0px",
+        style:"solid",
+        color:"#d3bd98",
+        radius:"0px"
+    },
+    card_background_color:"#E8DAC5",
+    card_box_shadow:"0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24)",
+    card_outline:{
+        width:"0px",
+        style:"solid",
+        color:"#d3bd98"
+    },
+    card_header_margin:"0px",
+    card_header_padding:"10px",
+    card_header_border:{
+        width:"0px 0px 1px 0px",
+        style:"solid",
+        color:"#d3bd98",
+        radius:"0px"
+    },
+    card_header_background_color:"#E8DAC5",
+    card_header_box_shadow:"0px 0px 0px rgba(0,0,0,0)",
+    breakpoint_font:"1200px",
+    breakpoint_stack_blocks:"700px",
+    colorway:[
+        "#232323",
+        "#1b9e77",
+        "#d95f02",
+        "#7570b3",
+        "#e7298a",
+        "#66a61e",
+        "#e6ab02",
+        "#a6761d"
+    ],
+    colorscale:[
+        "#232323",
+        "#363636",
+        "#4b4b4b",
+        "#606060",
+        "#777777",
+        "#8e8e8e",
+        "#a6a6a6",
+        "#bebebe",
+        "#d7d7d7",
+        "#f1f1f1"
+    ],
+    dbc_primary:"#232323",
+    dbc_secondary:"#816637",
+    dbc_info:"#00C6CF",
+    dbc_gray:"#adb5bd",
+    dbc_success:"#00C896",
+    dbc_warning:"#F9F871",
+    dbc_danger:"#ff5e7b",
+    font_family:"Abel",
+    font_family_header:"PT Serif",
+    font_family_headings:"PT Serif",
+    font_size:"17px",
+    font_size_smaller_screen:"15px",
+    font_size_header:"24px",
+    title_capitalization:"uppercase",
+    header_content_alignment:"spread",
+    header_margin:"0px 0px 15px 0px",
+    header_padding:"0px",
+    header_border:{
+        width:"0px 0px 0px 0px",
+        style:"solid",
+        color:"#d3bd98",
+        radius:"0px"
+    },
+    header_background_color:"#E8DAC5",
+    header_box_shadow:"0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24)",
+    header_text:"#493D32",
+    heading_text:"#493D32",
+    text:"#493D32",
+    report_background_content:"#FAFBFC",
+    report_background_page:"white",
+    report_text:"black",
+    report_font_family:"Computer Modern",
+    report_font_size:"12px",
+    kubernetes_banner_font_color:"white"
+}
